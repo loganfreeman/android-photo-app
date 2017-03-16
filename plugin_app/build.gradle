@@ -37,6 +37,7 @@ android {
             buildConfigField "boolean", "LOG_DEBUG", "true"
         }
     }
+    buildToolsVersion '25.0.0'
 }
 ext {
     leakcanaryVersion = '1.3'

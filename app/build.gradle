@@ -122,6 +122,7 @@ android {
     }
 
     sourceSets { main { jni.srcDirs = ['src/main/jni'] } }
+    buildToolsVersion '25.0.0'
 }
 
 //afterEvaluate {
